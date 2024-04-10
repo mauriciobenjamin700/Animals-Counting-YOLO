@@ -1,0 +1,20 @@
+[tool.poetry]
+package-mode = false
+name = "animals-counting-yolo"
+version = "0.1.0"
+description = ""
+authors = ["Mauricio Benjamin da Rocha"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ultralytics = "^8.1.45"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
